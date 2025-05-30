@@ -1,16 +1,16 @@
 
-# 📉 Customer Churn Prediction System
+#  Customer Churn Prediction System
 
 This project is a full-stack machine learning application to predict customer churn. It includes:
 
-- ✅ A trained churn prediction model (`churn_model.pkl`)
-- ⚙️ A FastAPI backend for serving predictions
-- 📊 A Streamlit dashboard for visualization
-- 🐳 Docker setup for easy deployment
+- A trained churn prediction model (`churn_model.pkl`)
+- A FastAPI backend for serving predictions
+- A Streamlit dashboard for visualization
+- Docker setup for easy deployment
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 customer_churn_prediction_system/
@@ -35,9 +35,9 @@ customer_churn_prediction_system/
 
 ---
 
-## 🚀 How to Run the Project
+##  How to Run the Project
 
-### 1. ✅ Prerequisites
+### 1.  Prerequisites
 
 Ensure you have the following installed:
 
@@ -47,7 +47,7 @@ Ensure you have the following installed:
 
 ---
 
-### 2. 🧠 Train the Model (Optional)
+### 2.  Train the Model (Optional)
 
 If you want to train your own model:
 
@@ -60,7 +60,7 @@ Move the generated `churn_model.pkl` to the `model/` directory.
 
 ---
 
-### 3. 🐳 Run with Docker
+### 3.  Run with Docker
 
 ```bash
 cd customer_churn_prediction_system
@@ -76,7 +76,7 @@ docker-compose up --build
 
 ---
 
-## 📊 Dataset Used
+##  Dataset Used
 
 The model was trained using the [Telco Customer Churn dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn), a publicly available dataset on Kaggle.
 
@@ -92,7 +92,7 @@ The model was trained using the [Telco Customer Churn dataset](https://www.kaggl
 
 ---
 
-## 📦 Model Training Details
+##  Model Training Details
 
 - Model: Logistic Regression
 - Evaluation Metric: Accuracy
@@ -101,14 +101,9 @@ The model was trained using the [Telco Customer Churn dataset](https://www.kaggl
 
 ---
 
-## 📌 Notes
+##  Notes
 
 - Make sure `churn_model.pkl` is present in the `model/` directory before starting Docker.
 - Ensure Docker ports 8000 and 8501 are not blocked by other apps.
 
----
 
-## 🧑‍💻 Author
-
-Made with ❤️ by [Your Name]  
-[LinkedIn | GitHub | Portfolio]
